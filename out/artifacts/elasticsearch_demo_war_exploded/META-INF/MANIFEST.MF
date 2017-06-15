@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: elasticsearch_demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: com.wlw
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_77
+Main-Class: ${start-class}
+

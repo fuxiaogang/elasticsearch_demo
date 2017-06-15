@@ -1,0 +1,23 @@
+{
+  "analysis": {
+    "analyzer": {
+      "custom_ik_max": {
+        "type": "custom",
+        "tokenizer": "ik_max_word",
+        "filter": [
+          "stemmer",
+          "local_synonym"
+        ],
+        "char_filter": [
+          "html_strip"
+        ]
+      }
+    },
+    "filter": {
+      "local_synonym": {
+        "type": "synonym",
+        "synonyms_path": "synonym.txt"
+      }
+    }
+  }
+}
